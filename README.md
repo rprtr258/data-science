@@ -1,7 +1,8 @@
 # data-science
 Struggling to learn anything
 
-### DataMining_2019_job1. Выбрать датасеты для кластеризации и анализа временных рядов
+### DataMining_2019_job1. Выбрать датасеты для кластеризации и анализа временных рядов и сделать опрос
+[Датасет с опросом](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/votes-dataset.ipynb)
 [Цены алмазов](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/appartment-choosing.ipynb)
 [Потребление электричества(TODO)](f)
 
