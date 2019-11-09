@@ -19,3 +19,6 @@ Struggling to learn anything
 
 ### DataMining_2019_job6. Интерактивная диаграмма
 [ссылка на задание](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/diamonds-interactive-diagram.ipynb)
+
+### DataMining_2019_job7. Предсказание цены квартиры с помощью линейной регрессии
+[ссылка на задание](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/linear-regression.ipynb)
