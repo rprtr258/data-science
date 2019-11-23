@@ -25,4 +25,5 @@ Struggling to learn anything
 
 ### DataMining_2019_job9. Кластеризация с помощью алгоритмов k-means и DBSCAN
 [на случайных точках с сгущениями](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/clasterization.ipynb)
+
 [на датасете с алмазами](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/diamonds-clasterization.ipynb)
