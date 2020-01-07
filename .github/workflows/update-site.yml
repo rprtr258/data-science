@@ -21,8 +21,7 @@ jobs:
         cd ../rprtr258.github.io
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git status
-        ls -las
+        git add -a
         git commit -m "Test" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
