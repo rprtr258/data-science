@@ -14,8 +14,9 @@ jobs:
       run: |
         cd ..
         git clone https://github.com/rprtr258/rprtr258.github.io
-        ls
-        echo LOL > /home/runner/work/data-science/rprtr258.github.io/check.html
+        cd rprtr258.github.io
+        touch check.html
+        echo LOL > check.html
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
