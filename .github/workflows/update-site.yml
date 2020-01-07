@@ -20,5 +20,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.SITE_GITHUB_TOKEN }}
-        directory: rprtr258.github.io
+        directory: /home/runner/work/data-science/rprtr258.github.io
         repository: rprtr258/rprtr258.github.io
