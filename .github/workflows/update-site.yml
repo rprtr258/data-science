@@ -12,5 +12,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Update personal site
       run: |
-        echo '${pwd}'
-        echo '${ls}'
+        echo "${pwd}"
+        echo "${ls}"
