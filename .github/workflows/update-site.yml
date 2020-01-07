@@ -12,6 +12,12 @@ jobs:
     - uses: actions/checkout@v1
     - name: Update personal site
       run: |
-        echo $(pwd)
-        echo $(ls)
-        echo LOLOLOLOL
+        cd ..
+        git clone https://github.com/rprtr258/rprtr258.github.io
+        echo LOL > rprtr258.github.io/check.html
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.SITE_GITHUB_TOKEN }}
+        directory: rprtr258.github.io
+        repository: rprtr258/rprtr258.github.io
