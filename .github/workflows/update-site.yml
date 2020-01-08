@@ -10,17 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Update personal site
+    - name: Clone site repository
       run: |
         cd ..
         git clone https://github.com/rprtr258/rprtr258.github.io
-        cp data-science/README.md rprtr258.github.io/mlprojects.html
+    - name: Update personal site
+      run: |
+        cd ..
+        npm install showdown -g
+        showdown makehtml -i data-science/README.md -o rprtr258.github.io/mlprojects.html
     - name: Commit files
       run: |
         cd ../rprtr258.github.io
         git config --local user.email "action@github.com"
         git config --local user.name "rprtr258/data-science GitHub Action"
-        git add .
         git commit -m "Update mlprojects page" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
