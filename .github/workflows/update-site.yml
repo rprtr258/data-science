@@ -13,6 +13,7 @@ jobs:
     - name: Update personal site
       run: |
         cd ..
+        ls
         git clone https://github.com/rprtr258/rprtr258.github.io
         cat data-science/readme.md rprtr258.github.io/mlprojects.html
     - name: Commit files
