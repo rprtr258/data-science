@@ -1,7 +1,7 @@
 # data-science
 Datascience and machine learning projects.
 ## DataMining 2019 course in SPbU
-### job1. Выбрать датасеты для кластеризации и анализа временных рядов и сделать опрос
+### job1. Выбрать датасеты для кластеризации и сделать опрос
 [Датасет с опросом](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/votes-dataset.ipynb)
 
 [Цены алмазов](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/appartment-choosing.ipynb)
@@ -17,4 +17,4 @@ Datascience and machine learning projects.
 
 [на датасете с алмазами](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/diamonds-clasterization.ipynb)
 ### job10. [Агломеративная(иерархическая) кластеризация](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/aglomerating_clustering.ipynb)
-### job11,12. [Регрессия временного ряда с помощью нахождения периодов и тренда](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/time_series_analysis.ipynb)
+### job11. [Регрессия временного ряда с помощью нахождения периодов и тренда](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/time_series_analysis.ipynb)
