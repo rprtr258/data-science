@@ -36,3 +36,4 @@ Struggling to learn anything
 
 ### DataMining_2019_job11,12. Регрессия временного ряда с помощью нахождения периодов и тренда
 [ссылка на задание](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/time_series_analysis.ipynb)
+
