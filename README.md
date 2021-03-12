@@ -6,8 +6,6 @@ Datascience and machine learning projects.
 
 [Цены алмазов](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/appartment-choosing.ipynb)
 
-[Потребление электричества(TODO)](f)
-
 ### job2. [Посчитать статистики для любого датасета](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/diamonds-dataset.ipynb)
 ### job3. [Построить box plot для имен из датасета имен Москвы](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/boxes.ipynb)
 ### job4. [Выбрать топ 3 квартиры для Пети](https://nbviewer.jupyter.org/github/rprtr258/data-science/blob/master/appartment-choosing.ipynb)
