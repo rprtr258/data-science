@@ -23,6 +23,7 @@ jobs:
       run: |
         cd ../rprtr258.github.io
         COMMIT_MESSAGE="Update mlprojects page on $(date +'%Y-%m-%d %H:%M:%S')"
+        git add mlprojects.html
         git diff-index --quiet --cached HEAD -- && echo "No changes!" && exit 0 || echo "$COMMIT_MESSAGE"
         git config --local user.email "action@github.com"
         git config --local user.name "rprtr258/data-science GitHub Action"
